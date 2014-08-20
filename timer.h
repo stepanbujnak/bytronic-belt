@@ -23,8 +23,8 @@
 #define TIMER(var) static struct timer var = {0}
 
 struct timer {
-  unsigned int expires_in;
-  unsigned char new;
+    unsigned int expires_in;
+    unsigned char new;
 };
 
 void timer_init(void);
